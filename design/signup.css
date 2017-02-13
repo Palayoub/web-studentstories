@@ -1,0 +1,93 @@
+
+td
+{
+width: 50%;
+}
+form
+{
+width: 750px;
+margin:0 auto;
+}
+
+legend
+{
+font-size:large;
+font-weight:bold;
+}
+fieldset
+{
+font-family:verdana;
+background-color:#f5f5f5;
+margin-bottom:10px;
+border-radius:7px;
+box-shadow:0px 0px 3px 4px silver;
+}
+table
+{
+width:100%
+}
+label
+{
+color:#e48145;
+font-family:verdana;
+text-align:right;
+font-weight:bold;
+text-decoration:blue
+}
+div.centre {
+    position:absolute;
+    left: 0%;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%; 
+    margin-top: 0px;
+}
+div.identifier{
+margin-right:50%;
+}
+/*barre de students stories*/
+#signup
+{
+color: #e48145;
+background-color:#f5f5f5;
+font-family:verdana;
+text-align:center;
+font-weight:bold;
+text-decoration:blue
+}
+div.identifier{
+margin-right:50px;
+background-color:#f5f5f5;
+}
+td:nth-child(1){
+text-align:left;
+
+}
+td#nn
+{
+text-align:right; 
+background-color:#f5f5f5
+}
+h1
+{
+background-color:#f5f5f5;
+}
+a.students
+{
+font-family:verdana;
+color: #e48145;
+text-align:center;
+font-weight:bold;
+text-decoration:blue;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+position: relative;
+background-color:#e2e2e2}
+

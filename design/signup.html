@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign up</title>
+		<link href="signup.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<table  cellspacing=0>
+		<tr id="nn"><td id="nn" width="100" class="table-ligne1"><a href="#" class="students"><h1>Students Stories</h1></a></td>
+	<td id="nn" width="100" class="table-ligne1"><label for="username">Username :</label>
+				<input type="text" id="username" name="username" maxlength="30" placeholder="students.stories" required autofocus><br>
+				<label for="passwrd">Password :</label>
+				<input type="password" id="passwrd" name="passwrd" maxlength="30" required>
+				<br> <div class ="identifier"><input type="submit" value="log in">
+				<br> <a href="file:///C:/Users/LENOVO/Desktop/TP_02_Corrige/02_Formulaire/signup.html" id="signup">sign up</a></div></td></tr></table>
+		<form method="post" action="formulaire.php">
+			<div class="centre"><fieldset>
+				<legend>S'inscrire</legend>
+				<table>
+				<tr><td><label for="nom">Nom :</label></td>
+				<td><input type="text" id="nom" name="nom" maxlength="30" placeholder="Ex. Descartes" required autofocus></td></tr>
+				<tr><td><label for="prenom">Prénom :</label></td>
+				<td><input type="text" id="prenom" name="prenom" maxlength="30" placeholder="Ex. René" required></td></tr>
+				<tr><td><label for="civilite">Civilité :</label></td>
+				<td><select id="civilite" name="civilite">
+					<option value="M" selected>M.</option>
+					<option value="Mme">Mme</option>
+					<option value="Mlle">Mlle</option>
+				</select></td></tr>
+				<tr>
+				<td><label for="email">Adresse e-mail :</label></td>
+				<td><input type="email" id="email" name="email" maxlength="30" placeholder="Ex. rene.descartes@gmail.com" required></td></tr>
+				<tr>
+				<td><label for="mot_de_passe">Mot de passe :</label></td>
+				<td><input type="password" id="mot_de_passe" name="mot_de_passe" maxlength="30" required></td></tr></table>
+			</fieldset>
+			
+			<table>
+			<div class ="identifier"><tr><td style="width:50%"><input type="reset" value="Reset"></td>
+			<td style="width:50%"><input type="submit" value="Submit"></td></tr></div></table></div>
+		</form>
+	</body>
+</html>
