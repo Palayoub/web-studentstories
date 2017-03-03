@@ -2,7 +2,12 @@ from django.db import models
 
 # Create your models here.
 class Student(models.Model):
-    first_name=models.CharField(max_length=15)
-    last_name = models.CharField(max_length=15)
-    age=models.IntegerField(default=15)
-    date_bith=models.DateTimeField()
+    username = models.CharField(max_length=100)
+    first_name = models.CharField(max_length=100)
+    last_name = models.CharField(max_length=100)
+    civilite = models.BooleanField(default=False)
+    email = models.EmailField(max_length=100)
+    password = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.username

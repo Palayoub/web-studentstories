@@ -1,0 +1,147 @@
+html {
+  height: 60%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e2e2e2;
+}
+body {position: relative;}
+footer {position: absolute; bottom: 0; left: 0; right: 0}
+a.students
+{
+font-family:verdana;
+color: #e48145;
+text-align:center;
+font-weight:bold;
+text-decoration:blue;
+}
+label{
+font-family:Verdana;
+color: #e48145;
+text-align:center;
+text-decoration:blue;
+}
+h2
+{
+text-shadow:silver 1px 5px 5px;
+}
+h1
+{
+background-color:#f5f5f5;
+}
+a.life
+{
+font-family:verdana;
+color: #e48145;
+text-align:center;
+text-decoration:blue;
+
+}
+table
+{
+margin:auto;
+width:100%;
+top:50%;
+}
+table#tt
+{
+margin:auto;
+width:100%;
+top:50%;
+background-color:#f5f5f5
+}
+td#nn
+{
+text-align:right; 
+background-color:#f5f5f5
+}
+td#zz
+{
+height:50%;
+text-align:center;
+}
+td:nth-child(1){
+text-align:left;
+
+}
+#signup
+{
+color: #e48145;
+font-family:verdana;
+color: #e48145;
+text-align:center;
+text-decoration:blue
+}
+
+
+.table-ligne1 {
+font-size : 12px; 
+font-family : Verdana, arial, helvetica, sans-serif; 
+color : #333333; 
+background-color : #c6c3bd; 
+}
+
+
+legend
+{
+font-size:large;
+font-weight:bold;
+}
+fieldset
+{
+font-family:verdana;
+background-color:#f5f5f5;
+margin-bottom:10px;
+border-radius:7px;
+box-shadow:0px 0px 3px 4px silver;
+}
+div.centre {
+    position:absolute;
+    left: 0%;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%; 
+    margin-top: 0px;
+}
+div.identifier{
+margin-right:50%;
+}
+
+
+
+.login-page {
+  width: 600px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  outline: 0;
+  background: #f5f5f5;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.form input.envoyer {
+  text-transform: uppercase;
+  background: #e48145;
+  color: #FFFFFF;
+  cursor: pointer;
+}

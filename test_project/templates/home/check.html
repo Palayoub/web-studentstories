@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<!-- <link href="home/index.css" rel="stylesheet" type="text/css">-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Students Stories</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'signup.css' %}" />
+	</head>
+	<body>
+		<table cellspacing="0" width="100%">
+			<tr id="nn">
+				<td id="nn" width="69%" class="table-ligne1"><div align="left"><a href="/" class="students"><img
+																						src="{% static 'Logo.jpg' %}" height="45"
+																						width="200"></a></div></td>
+				<td id="nn" class="table-ligne1">
+					<table id="tt">
+						<tr >
+							<td><label for="username">Username:</label></td>
+							<td><input type="text" id="username" name="username" maxlength="30"
+								placeholder="students.stories" required autofocus><br></td>
+							<td><label for="passwrd">Password:</label></td>
+							<td><input type="password" id="passwrd" name="passwrd" maxlength="30" required></td>
+							<td><input type="submit" value="log in"></td>
+							<!-- <td><a href="signup.html" id="signup">sign up</a></div></td> -->
+						</tr>
+				</td>
+			</tr>
+		</table>
+		<div class="centre">
+			<div class="login-page">
+				<div class="form">
+					<p>The user : <u>{{user}}</u> has been added successfully.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

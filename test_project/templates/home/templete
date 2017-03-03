@@ -1,0 +1,4 @@
+<html>
+	<h3>This is an HTML page </h3>
+	<h5>{{ variable }}</h5>
+</html>
