@@ -16,7 +16,7 @@
 				<td id="nn" class="table-ligne1">
 					<table id="tt">
 						<tr >
-							<td><label for="username">Username:</label></td>
+							<td ><label for="username">Username:</label></td>
 							<td><input type="text" id="username" name="username" maxlength="30"
 								placeholder="students.stories" required autofocus><br></td>
 							<td><label for="passwrd">Password:</label></td>
@@ -26,14 +26,26 @@
 						</tr>
 				</td>
 			</tr>
-		</table>
+		</table></td>
+		<div class="home">
+		<table cellspacing="0" width="100%" id="ha">
+						<tr>
+							<td id="home"><button href="#">Test1</button></td>
+							<td id="home"><button title="test2" href="#">Test2</button></td>
+							<td id="home"><button title="test3" href="#">Test3</button></td>
+							<td id="home"><button title="test4" href="#">Test4</button></td>
+							<!-- <td><a href="signup.html" id="signup">sign up</a></div></td> -->
+						</tr>
+		</table></div>
 		<div class="centre">
 			<div class="login-page">
 				<div class="form">
 					<table>
 						<tr>
-							<td><button>Personal life</button></td>
-							<td><button>Academic life</button></td>
+							<td>
+							<button name="button" onMouseOver='changeColor();' onMouseOut='changColor();'>Personal life</button>
+							</td>
+							<td><button name="button1" onMouseOver='changeColor1();' onMouseOut='changColor1();'>Academic life</button></td>
 						</tr>
 					</table>
 				<p class="message">Not registered? <a href="signup">Create an account</a></p>
@@ -49,7 +61,7 @@
 			-->
 		</div>
 
-
+<script src="{% static 'index.js' %}"></script>
 	</body>
 	<footer>
 	</footer>
