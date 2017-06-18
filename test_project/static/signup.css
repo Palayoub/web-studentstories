@@ -145,3 +145,36 @@ margin-right:50%;
   color: #FFFFFF;
   cursor: pointer;
 }
+#home {
+  text-align:center;
+    font-size : 20px; 
+  font-family : Verdana, arial, helvetica, sans-serif; 
+  color : #333333;
+}
+
+#home a {
+text-decoration: none;
+color :#e48145;
+}
+
+ button,input#sub {
+  text-transform: uppercase;
+  background: #c6c2bk;
+  width: 100%;
+  border: 0;
+  padding: 11px;
+  color: #FFFFFF;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+button:hover,button:active,button:focus {
+  background:#c6c3bd;
+  
+}
+input#sub{
+  padding: 6px;
+  font-size: 10px;
+  background:orange;
+}
