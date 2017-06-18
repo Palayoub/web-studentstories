@@ -23,3 +23,16 @@ function changColor1() {
 		a[i].style.backgroundColor = '#E48145';
 	}
 }
+
+function changeColor2() {
+	var a = document.getElementsByName("button2");
+	for (var i = 0; i < a.length; i++) {
+		a[i].style.backgroundColor = '#4CAF50';
+	}
+}
+function changColor2() {
+	var a = document.getElementsByName("button2");
+	for (var i = 0; i < a.length; i++) {
+		a[i].style.backgroundColor = '#E48145';
+	}
+}
