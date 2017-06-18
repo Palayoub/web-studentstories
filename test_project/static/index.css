@@ -168,15 +168,14 @@ text-decoration: none;
 color :#e48145;
 }
 
- button {
+ button,input#sub {
   text-transform: uppercase;
-  outline: 0;
   background: #c6c2bk;
   width: 100%;
   border: 0;
-  padding: 15px;
+  padding: 11px;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 10px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
@@ -184,4 +183,8 @@ color :#e48145;
 button:hover,button:active,button:focus {
   background:#c6c3bd;
   
+}
+input#sub{
+  padding: 6px;
+  font-size: 10px;
 }
