@@ -16,7 +16,7 @@ def index(request):
 
 
 def connect(request):
-   user = request.POST['username']
+    user = request.POST['username']
     passw = request.POST['passwrd']
     try:
     	listing = Student.objects.get(username=user , password=passw)

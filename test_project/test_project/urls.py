@@ -16,10 +16,11 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from . import views
+from django.contrib.auth.decorators import login_required
 
 urlpatterns = [
-    '''url(r'^$', LoginView.as_view()),
-    url(r'^logout/$', LogoutView.as_view()),'''
+    url(r'^$', LoginView.as_view()),
+    url(r'^logout/$', LogoutView.as_view()),
     url(r'^admin/', admin.site.urls),
     url(r'^signup/', include('signup.urls')),
     url(r'^$', views.index, name='index'),
