@@ -5,6 +5,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url("people-woman-coffee-meeting.jpg");
   background-color: #e2e2e2;
 }
 body {position: relative;}
@@ -138,13 +139,6 @@ margin-right:50%;
   font-size: 14px;
 }
 
-
-.form input.envoyer {
-  text-transform: uppercase;
-  background: #e48145;
-  color: #FFFFFF;
-  cursor: pointer;
-}
 #home {
   text-align:center;
     font-size : 20px; 
@@ -178,3 +172,12 @@ input#sub{
   font-size: 10px;
   background:orange;
 }
+
+.form input.envoyer {
+  text-transform: uppercase;
+  background: #e48145;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+

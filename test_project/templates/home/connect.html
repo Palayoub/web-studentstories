@@ -1,0 +1,55 @@
+{% load staticfiles %}
+<!-- <link href="home/index.css" rel="stylesheet" type="text/css">-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Students Stories</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'index.css' %}" />
+	</head>
+	<body>
+	<form action="{% url 'check' %}" method="post">
+				{% csrf_token %}
+		<table cellspacing="0" width="100%">
+			<tr id="nn">
+				<td id="nn" width="69%" class="table-ligne1"><div align="left"><a href="/" class="students"><img
+																						src="{% static 'Logo.jpg' %}" height="45"
+																						width="200"></a></div></td>
+				<td id="nn" class="table-ligne1">
+					<table id="tt">
+						<tr >
+							<td ><label for="username">Username:</label></td>
+							<td><input type="text" id="username" name="username" maxlength="30"
+								placeholder="students.stories" required autofocus><br></td>
+							<td><label for="passwrd">Password:</label></td>
+							<td><input type="password" id="passwrd" name="passwrd" maxlength="30" required></td>
+							<td><input id="sub" type="submit" value="log in" name="button2" onMouseOver='changeColor2();' onMouseOut='changColor2();'></td>
+							<!-- <td><a href="signup.html" id="signup">sign up</a></div></td> -->
+						</tr>
+				</td>
+			</tr>
+		</table></td>
+		</form>
+		<div class="home">
+		<table cellspacing="0" width="100%" id="ha">
+						<tr>
+							<td id="home"><button class="na" href="#">Test1</button></td>
+							<td id="home"><button class="na" title="test2" href="#">Test2</button></td>
+							<td id="home"><button class="na" title="test3" href="#">Test3</button></td>
+							<td id="home"><button class="na" title="test4" href="#">Test4</button></td>
+							<!-- <td><a href="signup.html" id="signup">sign up</a></div></td> -->
+						</tr>
+		</table></div></tr></table></form>
+		<div class="centre">
+			<div class="login-page">
+				<div class="form">
+				{% if listing != 0 %}
+					<p>The user : <u>{{user}}</u>.</p>
+					<p>The password : <u>{{passwrd}}</u>.</p>
+					{% else %}
+					<p>dosen't exist</p>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</body></html>

@@ -18,7 +18,10 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
+    '''url(r'^$', LoginView.as_view()),
+    url(r'^logout/$', LogoutView.as_view()),'''
     url(r'^admin/', admin.site.urls),
     url(r'^signup/', include('signup.urls')),
     url(r'^$', views.index, name='index'),
+    url(r'^connect$', views.connect, name='connect'),
 ]

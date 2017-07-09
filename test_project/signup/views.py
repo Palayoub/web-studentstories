@@ -23,6 +23,18 @@ def check(request):
     query.save()
     context = { 'user': user }
     return render(request, 'home/check.html', context)
+def connect(request):
+    user = request.POST['username']
+    passw = request.POST['passwrd']
+    try:
+        listing = Student.objects.get(username=user , password=passw)
+    except Student.DoesNotExist:
+        listing = 0
+    context = { 'user' : user,
+    'passwrd' : passw,
+    'listing' : listing}
+    return render(request,'home/connect.html',context)
+
 
 # Create your views here.
 
